@@ -22,7 +22,7 @@
               <td class='kiri'>$row[kategori]</td>
               <td class='tengah'>$row[status]</td>
               <td class='tengah'>
-                  <a href='" .BASE_URL."index.php?page=my_profile&module=kategori&action=form&kategori_id=$row[kategori_id]'>Edit</a>
+                  <a class='tombol-action' href='" .BASE_URL."index.php?page=my_profile&module=kategori&action=form&kategori_id=$row[kategori_id]'>Edit</a>
               </td>
             </tr>";
     $no++;
